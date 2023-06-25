@@ -28,12 +28,12 @@ enum layers{
 #define KC_TASK LGUI(KC_TAB)
 #define KC_FLXP LGUI(KC_E)
 #define HOLD_ON_OTHER_KEY_PRESS
-#define QUICK_TAP_TERM_PER_KEY
+
 
 uint16_t get_quick_tap_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case LCTL_T(KC_ESC):
-            return QUICK_TAP_TERM - 125;
+            return QUICK_TAP_TERM;
         default:
             return QUICK_TAP_TERM;
     }

@@ -62,3 +62,6 @@
 #define ENABLE_LED_MATRIX_WAVE_LEFT_RIGHT           // Sine wave scrolling from left to right
 #define ENBALE_LED_MATRIX_WAVE_UP_DOWN              // Sine wave scrolling from up to down
 // #define ENABLE_LED_MATRIX_EFFECT_MAX
+
+#define QUICK_TAP_TERM 100
+#define QUICK_TAP_TERM_PER_KEY
