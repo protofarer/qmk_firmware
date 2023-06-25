@@ -27,6 +27,7 @@ enum layers{
 
 #define KC_TASK LGUI(KC_TAB)
 #define KC_FLXP LGUI(KC_E)
+#define HOLD_ON_OTHER_KEY_PRESS
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [PROGRAMMING_BASE] = LAYOUT_75_ansi(
